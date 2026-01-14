@@ -4,15 +4,18 @@
 *.tfstate.*
 .terraform.lock.hcl
 
-# AWS / Credentials
+# Keys & secrets
 *.pem
 *.key
-*.zip
+*.env
 
-# OS / Editor
+# Archives / installers
+*.zip
+aws/
+dist/
+
+# Logs / OS
+*.log
 .DS_Store
 .vscode/
 .idea/
-
-# Logs
-*.log
